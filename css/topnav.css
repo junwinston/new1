@@ -1,0 +1,59 @@
+/* Top Navigation */
+	.top-nav {
+		display: inline-block;
+		background: #000000;
+		width: 100%;
+		border-bottom: 1px #ffffff solid;
+	}
+
+	/* Social Icon */
+		.social-top-nav {
+			float: left;
+			display: table;
+		}
+		.social-top-nav a {
+			display: table-cell;
+			padding: 5px;
+			text-align: center;
+			font-size: 13px;
+			height: 2em;
+			width: 2em;
+			line-height: 2em;
+			color: rgb(0, 0, 0);
+			background-color: #ffffff;
+			transition-duration: .2s;
+		}
+		/* hightlight icon fb, google, youtube .... when hover */
+		.social-top-nav a:hover { color: #fff; }
+		.fa-facebook:hover { background: #3B5998; }
+		.fa-twitter:hover { background: #55ACEE; }
+		.fa-google:hover { background: #00eeff; }
+		.fa-youtube:hover { background: #ff0000; }
+	/* ======= End Social Icon ======= */
+
+	/* Quick link */
+		.top-nav-quicklink {
+			background-color: #fff;
+			float: right;
+		}
+		.top-nav-quicklink li {
+			display: inline-block;
+			font-size: 1em;
+			color: rgb(255, 255, 255);
+		}
+		.top-nav-quicklink li a {
+			display: block;
+			color: rgb(0, 0, 0);
+			padding: 8px 15px;
+			transition-duration: .15s;
+		}
+		.top-nav-quicklink li a:hover {
+			padding-top: 4px; 
+			border-bottom: 4px solid #ff00c3;
+			color: #ff00d9;
+		}
+		.top-nav-quicklink li a:hover i {
+			color: rgb(255, 0, 0);
+		}
+	/* ======= End quick link ======= */
+/* ======= End Top navigation ======= */
